@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+  <meta name="description" content="FreeCodeCamp project from data visualization curriculum">
+  <title>Heat Map</title>
+</head>
+<body>
+  <header>
+    <h1>Monthly Global Land-Surface Temperature</h1>
+    <h3>1753 - 2015</h3>
+    <p>
+      Temperatures are in Celsius and reported as anomalies relative to the Jan 1951-Dec 1980 average.
+      Estimated Jan 1951-Dec 1980 absolute temperature ℃: 8.66 +/- 0.07</p>
+  </header>
+  <main>
+    <div id="tooltip">
+      <p id="date"></p>
+      <p id="temp"></p>
+      <p id="temp-dif"></p>
+    </div>
+    <svg width="1270" height="670"></svg>
+    <div id="color-dif"></div>
+  </main>
+  <footer>
+    <p>&copy;Copyright 2018 Developed by <a href="https://github.com/Luiko">Luiko</a></p>
+  </footer>
+</body>
+</html>

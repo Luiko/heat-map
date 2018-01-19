@@ -1,0 +1,63 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: whitesmoke;
+}
+
+header, footer {
+  text-align: center;
+  margin: 200px 0 100px;
+}
+
+p, span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+}
+
+main {
+  display: block;
+  margin: auto;
+}
+
+#tooltip {
+  display: none;
+  position: absolute;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2%;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#date {
+  font-size: 1.1rem;
+  font-stretch: wider;
+  font-weight: bolder;
+}
+
+#temp {
+  font-weight: bold;
+}
+
+.axis-header {
+  font-size: 1.2rem;
+}
+
+.months-axis line + text {
+  font-size: 0.6rem;
+}
+
+#color-dif {
+  text-align: center;
+}
+
+#color-dif > div {
+  display: inline-block;
+}
+
+#color-dif > div > div {
+  padding: 1rem;
+}
